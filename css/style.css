@@ -1,0 +1,385 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid red; */
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header section */
+header {
+  background: rgb(44, 89, 207);
+  background: linear-gradient(
+    180deg,
+    rgba(44, 89, 207, 1) 0%,
+    rgba(44, 122, 231, 1) 81%
+  );
+  min-height: 80vh;
+  background-repeat: no-repeat;
+}
+
+.header-pix {
+  opacity: 0.8 !important;
+  transition: all 0.7s ease-in-out;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.header-pix-container {
+  border-radius: 50%;
+  width: 120px;
+  height: 110px;
+}
+
+.border-second {
+  border-color: 1px solid #80abed !important;
+}
+
+/* nav Section */
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link {
+  font-size: 0.875rem !important;
+  margin: 0.2rem !important;
+}
+.nav-link:hover {
+  color: rgb(170, 167, 167) !important;
+}
+
+.nav-sign-up {
+  border: 1px solid #fff !important;
+  padding: 0.5rem 0.7rem !important;
+}
+
+/* background Colors */
+.bg-badge {
+  background-color: #c7ebfd !important;
+}
+
+.bg-downloads {
+  background-color: #c7ebfd !important;
+}
+
+.bg-community {
+  background-color: #ddf0fe !important;
+}
+
+.bg-footer {
+  background-color: #1d262d !important;
+}
+
+.bg-footer-end {
+  background-color: #293741 !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+/* margin section */
+.ms-7 {
+  margin-left: 7rem !important;
+}
+
+.ms-6 {
+  margin-left: 4.4rem !important;
+}
+
+.mb-7 {
+  margin-bottom: 4.7rem !important;
+}
+
+.ms-8 {
+  margin-left: 27% !important;
+}
+.mb-1 {
+  margin-bottom: 0.1rem !important;
+}
+
+/* width */
+
+.w-90 {
+  width: 90% !important;
+}
+
+.w-85 {
+  width: 85% !important;
+}
+
+.w-13 {
+  width: 13% !important;
+}
+
+.w-95 {
+  width: 95% !important;
+}
+
+/* text colors , fonts */
+.text-pricing {
+  color: #fad24f !important;
+}
+
+.text-dark-grey {
+  color: #374957 !important;
+}
+
+.text-light-grey {
+  color: #738ea3 !important;
+}
+
+.text-white-hover:hover {
+  color: #fff !important;
+}
+
+.text-badge {
+  color: #094991 !important;
+}
+.text-explore {
+  color: #1173eb !important;
+}
+
+.fw-semi-bold {
+  font-weight: 600 !important;
+}
+
+.fw-semi-light {
+  font-weight: 400 !important;
+}
+
+.content-header {
+  font-size: 2rem !important;
+}
+
+.content-box {
+  padding: 6rem 0;
+}
+
+.text-grey {
+  color: #5a5d5f !important;
+}
+
+.fs-7 {
+  font-size: 1.125rem !important;
+}
+
+.fs-8 {
+  font-size: 0.875rem !important;
+}
+
+/* placeholder styling */
+
+::placeholder {
+  color: #b2b9be !important;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* buttons styling */
+
+.btn-search-links {
+  color: #fff !important;
+  background-color: #5689e3 !important;
+  padding: 0.2rem 0.5rem !important;
+  font-size: 0.875rem !important;
+  /* transition: all 0.7s ease-in; */
+}
+
+.btn-start {
+  background-color: #1173eb !important;
+  color: #fff !important;
+  padding: 0.6rem 1.7rem !important;
+  font-weight: 500 !important;
+  transition: all 0.8s ease-in;
+}
+.btn-start:hover {
+  background-color: #0554b5 !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+
+.btn-light {
+  background-color: transparent !important;
+  padding: 0.5rem 1.5rem !important;
+  border-color: #fff !important;
+  color: #fff !important;
+}
+
+.button-right :is(.to-right) {
+  transition: transform 200ms ease-out;
+}
+
+.button-right :is(.to-right):hover {
+  margin-right: 2px !important;
+}
+
+/* overflow scroller */
+.row-scroller {
+  position: relative;
+}
+
+.row-scroller .row {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: 1px;
+  padding-right: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+.scroller-col {
+  width: 12.9% !important;
+}
+
+.search-icon {
+  top: 33%;
+  left: 97%;
+  z-index: 222;
+}
+
+.product-img {
+  overflow: hidden !important;
+}
+
+.product-img-two {
+  overflow: hidden !important;
+  z-index: 2 !important;
+}
+
+.explore-photos {
+  opacity: 0.8 !important;
+  transition: all 0.7s ease-in-out;
+  z-index: 3;
+}
+
+.explore-photos:hover {
+  opacity: 0.7 !important;
+  transform: scale(1.03) !important;
+}
+
+.explore-photos-two {
+  opacity: 0.7 !important;
+  transition: all 0.4s ease-in-out;
+  /* z-index: 4 !important; */
+}
+
+.explore-photos-two:hover {
+  opacity: 0.6 !important;
+  transform: scale(1.03) !important;
+}
+
+.header-pix:hover {
+  transform: scale(1.2) !important;
+  opacity: 1 !important;
+}
+
+.shadow-img {
+  z-index: 1 !important;
+  bottom: 1.5% !important;
+  opacity: 0.2;
+  transform: rotate(5deg);
+  height: 98%;
+}
+
+.creator-pix {
+  top: 78% !important;
+  left: 5% !important;
+}
+
+/* input,textarea,button,select section */
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus,
+button:active,
+button:focus,
+select:active,
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.icon-container {
+  background: linear-gradient(
+    140deg,
+    rgba(146, 205, 250, 0.5) 0%,
+    rgba(215, 215, 255, 0.4) 100%
+  );
+  border-radius: 5px !important;
+}
+@media only screen and (max-width: 36rem) {
+  .search-icon {
+    top: 33%;
+    left: 95%;
+    z-index: 222;
+  }
+
+  .scroller-col {
+    width: 40% !important;
+  }
+
+  .scroller-text {
+    font-size: 0.875rem !important;
+  }
+
+  .explore-text {
+    top: 85% !important;
+    left: 3% !important;
+  }
+
+  .scroller-md-col {
+    width: 94% !important;
+  }
+
+  .offcanvas {
+    background-color: #1d262d !important;
+  }
+}
+
+@media only screen and (max-width: 62rem) and (min-width: 48rem) {
+  .scroller-col {
+    width: 25% !important;
+  }
+
+  header {
+    background: rgb(44, 89, 207);
+    background: linear-gradient(
+      180deg,
+      rgba(44, 89, 207, 1) 0%,
+      rgba(44, 122, 231, 1) 81%
+    );
+    min-height: 50vh;
+    background-repeat: no-repeat;
+  }
+
+  .scroller-md-col {
+    width: 52% !important;
+  }
+
+  .explore-text {
+    top: 90% !important;
+    left: 3% !important;
+  }
+
+  .offcanvas {
+    background-color: #1d262d !important;
+  }
+}
